@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding-left: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+.contenedor{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0px 1px 0px;
+}
+.me{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 10px;
+}
+.contenedor2{
+    padding: 50px 0px 0px 250px;
+}
+.contenedor3{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.cajas{
+    width: 60%;
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.caja{
+    width: 200px;
+    height: 280px;
+    display: flex;
+    background-color: brown;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px gray;
+}
+.grande{
+    width: 300px;
+}
